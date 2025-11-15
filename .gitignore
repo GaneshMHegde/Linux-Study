@@ -1,6 +1,18 @@
-# Ignore ELF binary files
+# Build artifacts
 *.elf
 *.o
 *.so
 *.out
-*.
+
+# Ignore filenames with NO dot except common ones:
+[^.]*
+!Makefile
+!README
+!LICENSE
+!*.c
+!*.h
+!*.cpp
+!*.java
+!*.txt
+!*/
+
