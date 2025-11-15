@@ -1,0 +1,6 @@
+# Ignore ELF binary files
+*.elf
+*.o
+*.so
+*.out
+*.
